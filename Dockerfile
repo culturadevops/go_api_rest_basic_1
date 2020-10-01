@@ -12,4 +12,4 @@ RUN go build main.go
 
 FROM scratch
 COPY --from=builder /go/bin/api .
-ENTRYPOINT ["./app"]
+ENTRYPOINT ["./api"]
