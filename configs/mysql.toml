@@ -1,0 +1,11 @@
+[default]
+host = "localhost"
+port = "3306"
+database = "golandiayoutube"
+user = "golandia"
+password ="golandia123"
+charset = "utf8"
+sql_log = true
+
+MaxIdleConns = 10 
+MaxOpenConns = 100 
