@@ -1,7 +1,7 @@
 [default]
-host = "localhost"
+host = "golandia.c6u7gxmxwmst.us-east-1.rds.amazonaws.com"
 port = "3306"
-database = "golandia.c6u7gxmxwmst.us-east-1.rds.amazonaws.com"
+database = "user"
 user = "golandia"
 password ="golandia123"
 charset = "utf8"
