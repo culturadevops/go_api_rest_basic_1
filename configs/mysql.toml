@@ -1,7 +1,7 @@
 [default]
 host = "localhost"
 port = "3306"
-database = "golandiayoutube"
+database = "golandia.c6u7gxmxwmst.us-east-1.rds.amazonaws.com"
 user = "golandia"
 password ="golandia123"
 charset = "utf8"
