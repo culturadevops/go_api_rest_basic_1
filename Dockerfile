@@ -8,8 +8,9 @@ WORKDIR /go/src
 COPY go.mod .
 RUN go mod download
 COPY . .
-RUN go install
+RUN go build main.go
 
 FROM scratch
-COPY --from=builder /go/bin/api .
-ENTRYPOINT ["./api"]
+COPY --from=builder /go/src .
+WORKDIR /go/src
+CMD  ["./api"]
